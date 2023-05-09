@@ -25,7 +25,7 @@ from sklearn.model_selection import train_test_split
 """
   • • • #preprocessing
 """
-data = pd.read_csv('ticaret-yorum.csv')
+data = pd.read_csv('k.csv')
 print(data)
 
 tr_stop_words = pd.read_csv('tr_stop_word.txt',header=None)
